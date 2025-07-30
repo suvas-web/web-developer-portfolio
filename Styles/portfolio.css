@@ -10,8 +10,9 @@
 
 
 .header{
-    background-image: url('../images/developer.png')
-    background-repeat:no-repeat;
+    background-image: url('../images/developer.png');
+    background-position:top left bottom right;
+    background-repeat: no-repeat;
 
 }
 /* {nav styles */
@@ -57,7 +58,8 @@ nav li a {
     font-weight: bold;
     padding: 18px 35px;
     border-radius: 5px;
-    border: none;
+    border: none;  
+    margin: 5px;
 }
 .banner{
     display: flex;
@@ -67,6 +69,7 @@ nav li a {
 }
 .banner-content{
     max-width: 580px;
+    
 
 }
 .banner-greetings{
