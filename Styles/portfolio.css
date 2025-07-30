@@ -10,6 +10,8 @@
 
 
 .header{
+    background-image: url('../images/developer.png')
+    background-repeat:no-repeat;
 
 }
 /* {nav styles */
@@ -58,7 +60,7 @@ nav li a {
     border: none;
 }
 .banner{
-    /* display: flex; */
+    display: flex;
     justify-content: space-between;
     margin: 0 35px 0 200px;
 
